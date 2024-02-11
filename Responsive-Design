@@ -1,0 +1,546 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+   
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+  
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+                display: block;
+                margin: 5px 0;
+            max-width: 100%;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+     
+        @media screen and (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+          
+
+        }
+    </style>
+</head>
+<body>
+     <!-- Header Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="Main-Logo.png" alt="Your Brand Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#work"><b>Work</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><b>About</b></a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#blog"><b>Blog</b></a>
+          </li>
+          <li class="nav-item">
+        
+               <a class="nav-link" href="#contact"><b>Contact</b></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    
+    <section id="home">
+        <div class="container">
+      
+  <!-- Home Section -->
+   <style>
+  
+    .btn-send-message {
+      background-color: yellow;
+    }
+
+    
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    .content-column {
+      text-align: left;
+    }
+    .but2 {
+  background-color: yellow;
+  border: 1px solid white;
+  padding: 11px;
+  display: block;
+  margin: 0 auto;
+}
+   .but {
+  background-color: yellow;
+  border: 1px solid white;
+  padding: 11px;
+  display: block;
+ 
+}
+
+  </style>
+</head>
+
+
+
+  <section id="home" class="py-5 text-center">
+    <div class="container">
+      <div class="row align-items-center">
+   
+        <div class="col-md-6 content-column">
+          <h1><strong>Hello!!!<br>We Are Creative <br>Digital Agency</strong></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="but"><b>SEND MESSAGE</b></button>
+        </div>
+      
+        <div class="col-md-6 image-container">
+          <img src="Image-1.png" alt="Creative Digital Agency Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <head>
+                <style>
+                
+                 .showcase-images {
+                  position: relative;
+                }
+                
+            
+                .showcase-images img {
+                  max-width: 100%;
+                  height: auto;
+                }
+                .showcase-images1 {
+                  position: relative;
+                  margin-top: -185px;
+                }
+                
+            
+                .showcase-images1 img {
+                  max-width: 100%;
+                  height: auto;
+                }
+                 
+                .row-icons {
+                  display: flex;
+                  justify-content: center;
+                  gap: 120px;
+                  padding-top: 20px;
+                }
+                
+                .row-icons img {
+                  max-width: 50px;
+                  height: auto;
+                }
+                
+                .highlighted {
+                  background-color: yellow;
+                  width: 100%;
+                  height: 280px; 
+                  color: black;
+                  position: absolute;
+                  padding: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  z-index: 1; 
+                }
+                  .show-me-more1 {
+                 
+                  text-align: left;
+                  padding: 20px 0;
+                }
+                .h2{
+                  color: black;
+                }
+                
+               .btn-send-message {
+              background-color: yellow;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 43%;
+              
+            }
+              </style>
+            </head>
+              <section id="work" class="py-5">
+            
+                <div class="container">
+                  <h1 class="text-left"><Strong>WORK SHOWCASE.</Strong></h1><br>
+                  
+                 
+                  <div class="row justify-content-center mb-4">
+                    <div class="col-md-4">
+                      <div class="showcase-images">
+                      
+                        <div class="highlighted">
+                          <h4>ARTWORK</h4>
+                          <h6>BRANDING</h6>
+                        </div>
+                      </div>
+                    </div>
+            
+            
+                    <div class="col-md-4">
+                      <div class="showcase-images">
+                        <img src="Image-2.jpg" alt="Image 2">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="showcase-images">
+                        <img src="Image-3.jpg" alt="Image 3">
+                      </div>
+                    </div>
+            
+                  </div>
+                  
+            
+                  <div class="row justify-content-center mb-4">
+                    <div class="col-md-4">
+                      <div class="showcase-images1">
+                        <img src="Image-4.jpg" alt="Image 4">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="showcase-images">
+                        <img src="Image-5.jpg" alt="Image 5">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="showcase-images1">
+                        <img src="Image-6.jpg" alt="Image 6">
+                      </div>
+                    </div>
+                  </div>
+                     <br>
+                
+                   <button type="submit" class="but2"><b>SEND MESSAGE</b></button>
+                  <br>
+                  <br>
+                </div>
+                <div class="row-icons">
+                    <img src="Logo-1.png" alt="Icon 1">
+                    <img src="Logo-2.png" alt="Icon 2">
+                    <img src="Logo-3.png" alt="Icon 3">
+                    <img src="Logo-4.png" alt="Icon 4">
+                    <img src="Logo-5.png" alt="Icon 5">
+                  </div>
+                </div>
+              </section>
+            
+             
+              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+         
+              </section>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="container">
+            <section id="about" class="py-5 bg-light">
+
+                <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>About Us.</title>
+                  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                  <style>
+                
+                    .about-content {
+                      margin-bottom: 30px;
+                      margin-left: 15px;
+                    }
+                    .about-image {
+                      margin-bottom: 20px;
+                    }
+                    .about-content{
+                      margin-top: 100px;
+                      margin-bottom: 20px;
+                      text-align:left;
+                    }
+                    .about-image img {
+                      max-width: 100%;
+                    }
+                    .developer-info {
+                      background-color: yellow;
+                      color: black;
+                      padding: 10px;
+                      text-align: center;
+                    }
+                
+                    .read-more {
+                      text-align:left;
+                
+                    }
+                  </style>
+                </head>
+        
+                
+                  <section id="about" class="py-5">
+                    <div class="container">
+                       <h1 class="text-left"><Strong>ABOUT US.</Strong></h1><br>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet leo finibus,<br> laoreet mauris et, vestibulum urna.</p>
+                        </div>
+                      </div>
+                
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="about-image">
+                            <img src="Image-7.jpg" alt="Image 7">
+                            <div class="developer-info">
+                              <h4>Luke Skywalker</h4>
+                              <p>Frontend Developer</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col-md-4">
+                          <div class="about-image">
+                            <img src="Image-8.jpg" alt="Image 8">
+                            <div class="developer-info">
+                              <h4>Luke Skywalker</h4>
+                              <p>Web Designer</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col-md-4">
+                          <div class="about-content">
+                            <h3>Little About Us</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet leo finibus, laoreet mauris et, vestibulum urna. Proin eu nulla a eros tincidunt bibendum. Cras vestibulum ligula euismod, posuere felis nec, viverra metus.</p>
+                            <div class="read-more">
+                              <a href="#">Read More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                
+                  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+                  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                
+                
+                  </section>
+        </div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <div class="container">
+            <head>
+                <style>
+              
+                .contact-heading {
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                }
+                .contact-paragraph {
+                  margin-bottom: 20px;
+                }
+                .contact-form {
+                  margin-bottom: 20px;
+                }
+                .contact-form label {
+                  font-weight: bold;
+                }
+                .contact-form input[type="text"],
+                .contact-form input[type="email"],
+                .contact-form textarea {
+                  background-color: #f2f2f2;
+                }
+                .contact-image {
+                  margin-bottom: 20px;
+                    margin-top:120px;
+                }
+                .contact-image img {
+                  max-width: 100%;
+                }
+                .contact-icons {
+                  text-align: center;
+                }
+                .contact-icons img {
+                  max-width: 50px;
+                  margin: 0 10px;
+                }
+                .form-group{
+               background-color:gray;
+                }
+                .but1{
+                 background-color: yellow;
+                 border: 1px solid white;
+                 padding:11px;
+                }
+               
+              </style>
+            </head>
+              <section id="contact" class="py-5">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h1 class="text-left"><Strong>CONTACT US.</Strong></h1><br>
+                      <p class="contact-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                      <br>
+                      <form class="contact-form">
+                        <h4><b>Send Us Message.</b></h4><br>
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                     
+                          <button type="submit" class="but1"><b>SEND MESSAGE</b></button>
+                        
+                      </form>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="contact-image">
+                        <img src="Image-9.jpg" alt="Contact Image">
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <!-- Contact Icons -->
+                  <div class="row contact-icons">
+                    <div class="col-md-12">
+                      <img src="Icon-1.png" alt="Icon 1">
+                      <img src="Icon-2.png" alt="Icon 2">
+                      <img src="Icon-3.png" alt="Icon 3">
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            
+             
+        </div>
+    </section>
+
+  
+
+    <footer>
+     
+            <head>
+                <style>
+          
+               .footer-logo {
+               margin-left: -900px;
+               margin-bottom:-50px;
+              
+               }
+               .footer-text {
+                 font-size: 14px;
+                    margin-left: -500px;
+                    justify-content: center;
+                    text-align: center;
+                    margin-top: -30px;
+               }
+               .back-to-top {
+                 float: right;
+                 margin-top: -30px;
+               }
+             </style>
+           </head>
+             <footer class="bg-dark text-white text-center py-3">
+               <div class="container">
+                 <div class="footer-logo">
+                   <img src="Main-Logo-Footer.png" alt="Logo">
+                 </div>
+                 <div class="footer-text">
+                   &copy; 2020 - TheWebPeople. All Rights Reserved.
+                 </div>
+                 <div class="back-to-top">
+                   <a href="#top">
+                     <i class="fas fa-arrow-up"></i> Back to Top
+                   </a>
+                 </div>
+               </div>
+             </footer>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+             <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+           
+           
+            
+             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+    </footer>
+</body>
+</html>
